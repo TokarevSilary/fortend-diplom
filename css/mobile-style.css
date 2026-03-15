@@ -989,7 +989,7 @@ body {
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 500px) {
     .header {
         background-image: url('../img/banner-bg-tablet.jpg');
         min-height: 392px;
