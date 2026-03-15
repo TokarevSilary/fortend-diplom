@@ -989,7 +989,7 @@ body {
 }
 
 
-@media (min-width: 500px) {
+@media (min-width: 768px) {
     .trending__item {
         width: calc(50% - 2px);
         height: 247px;
