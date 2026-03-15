@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobile-style.css" media="(max-width: 1199px)">
+<!--    <link rel="stylesheet" href="./css/style.css" media="(min-width: 1200px)">-->
     <title>Блог — дипломный проект</title>
 </head>
 <body>
 <header class="header">
     <div class="header__items">
         <img src="./svg/noemi-logo.svg" alt="logo" class="header__logo ">
+
         <nav class="header__nav ">
+            <button class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <ul class="nav__list ">
                 <li class="nav__item">
                     <a href="#" class="nav__link">главная</a>
@@ -33,9 +40,10 @@
                 </li>
             </ul>
         </nav>
+
     </div>
     <div class="header__title">
-        <h1 class="header__heading">Блог о творчестве, спорте,<br>и образе жизни</h1>
+        <h1 class="header__heading">Блог о творчестве,<br class="mobile-br">спорте, и образе<br class="mobile-br"> жизни</h1>
     </div>
 
 </header>
@@ -138,8 +146,7 @@
                             <div class="date">10 июня 2019</div>
                             <div class="author">Неизвестный автор</div>
                         </div>
-                        <div class="post__topic">Лето на носу, а с ним и музыкальные фестивали. <br>На каком же из них вы разобьёте свою палатку?</div>
-                        <div class="post__topic">Мы составили список лучших летних фестивалей <br>по всему миру.</div>
+                        <div class="post__topic">Лето на носу, а с ним и музыкальные фестивали. <br>На каком же из них вы разобьёте свою палатку? <br> <br>Мы составили список лучших летних фестивалей <br>по всему миру.</div>
                     </div>
                 </div>
 
@@ -196,7 +203,7 @@
                             <div class="date">14 июня 2019</div>
                         </div>
                         <div class="sidebar__text">
-                            <a href="#">10 мест, ради которых стоит <br>проснуться</a>
+                            <a href="#">10 мест, ради которых стоит проснуться</a>
                         </div>
                     </div>
                 </div>
@@ -220,7 +227,7 @@
                             <div class="date">14 июня 2019</div>
                         </div>
                         <div class="sidebar__text">
-                            <a href="#">как мы превратили <br>классное место в<br>балкон
+                            <a href="#">как мы превратили классное место в балкон
                             </a>
                         </div>
                     </div>
@@ -233,7 +240,7 @@
                             <div class="date">14 июня 2019</div>
                         </div>
                         <div class="sidebar__text">
-                            <a href="#">Кулинарный подход<br> к науке</a>
+                            <a href="#">Кулинарный подход к науке</a>
                         </div>
                     </div>
                 </div>
@@ -287,22 +294,22 @@
                 <h2>темы</h2>
             </div>
             <div class="sidebar__topics-item">
-                красота<span class="sidebar__topics-item decoration">12</span>
+                красота<span class="decoration">12</span>
             </div>
             <div class="sidebar__topics-item">
-                здоровье<span class="sidebar__topics-item decoration">4</span>
+                здоровье<span class="decoration">4</span>
             </div>
             <div class="sidebar__topics-item">
-                образ жизни<span class="sidebar__topics-item decoration">145</span>
+                образ жизни<span class="decoration">145</span>
             </div>
             <div class="sidebar__topics-item">
-                музыка<span class="sidebar__topics-item decoration">28</span>
+                музыка<span class="decoration">28</span>
             </div>
             <div class="sidebar__topics-item">
-                спорт<span class="sidebar__topics-item decoration">62</span>
+                спорт<span class="decoration">62</span>
             </div>
             <div class="sidebar__topics-item">
-                йога<span class="sidebar__topics-item decoration">8</span>
+                йога<span class="decoration">8</span>
             </div>
         </aside>
     </section >
@@ -312,7 +319,7 @@
             <h2 class="container-title">наши изделия</h2>
             <div class="advertisement__wrapper">
                 <article class="advertisement__items">
-                        <img src="./img/shop-item-desk1.jpg" alt="наш продукт">
+                    <div class="advertisement__items-photo"></div>
                     <div class="item-content">
                         <h2 class="content-title">подушки на диван</h2>
                         <div class="content-title__text">Набор из двух подушек с модными принтами. Видео о создании <a class="content-decoration"  href="#" >здесь</a>.</div>
@@ -327,10 +334,10 @@
 
                 </article>
                 <article class="advertisement__items">
-                    <img src="./img/shop-item-desk2.jpg" alt="наш продукт">
+                    <div class="advertisement__items-photo"></div>
                     <div class="item-content">
                         <h2 class="content-title">Кукла «Зайчик»</h2>
-                        <div class="content-title__text">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена<br> <a class="content-decoration"  href="#" >весенняя серия постов</a> в блоге и<br> несколько подкастов.</div>
+                        <div class="content-title__text">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a class="content-decoration"  href="#" >весенняя серия постов</a> в блоге и несколько подкастов.</div>
                         <div class="content-title__price">
                             <div class="price-container">
                                 <div class="price"></div>
@@ -344,10 +351,10 @@
 
 
                 <article class="advertisement__items">
-                    <img src="./img/shop-item-desk3.jpg" alt="наш продукт">
+                    <div class="advertisement__items-photo"></div>
                     <div class="item-content">
                         <h2 class="content-title">Шестиугольная рамка</h2>
-                        <div class="content-title__text">Необычная рамка для украшения дома<br> из видео  <a class="content-decoration"  href="#" >«Как сделать рамку из<br> подручных средств за 30 минут»</a></div>
+                        <div class="content-title__text">Необычная рамка для украшения дома из видео  <a class="content-decoration"  href="#" >«Как сделать рамку из подручных средств за 30 минут»</a></div>
                         <div class="content-title__price">
                             <div class="price-container">
                                 <div class="price">500 ₽</div>
@@ -401,7 +408,7 @@
                     </div>
                 </div>
                 <div class="popup__input-container">
-                    <label for="text" class="popup__input-text">Расскажите, какой контент вы хотели бы видеть <br>на нашем сайте?</label>
+                    <label for="text" class="popup__input-text">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
                     <textarea class="popup__input" id="text" placeholder="Может, больше рецептов?"></textarea>
                 </div>
                 <button type="submit" class="popup__submit">отправить</button>
